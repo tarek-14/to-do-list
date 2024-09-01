@@ -1,0 +1,86 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(45deg , #153677 , #4e085f);
+  width: 100%;
+  min-height: 100vh;  
+}
+.App {
+  width: 100%;
+  max-width: 540px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+}
+h2{
+  margin-bottom: 20px;
+}
+.parent-input{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.parent-input input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.parent-input button{
+  border: none;
+  outline: none;
+  padding: 15px 50px;
+  background: #ff5945;
+  color: white;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.parent-input button:hover{
+  background: #ff5845bd;
+}
+ul{
+  padding: 0 25px;
+}
+ul li {
+  list-style: "";
+  cursor: pointer;
+  font-size: 22px;
+  overflow-wrap:  break-word;
+}
+.diffstyle{
+  list-style: "✔️";
+  text-decoration: line-through;
+  color: #000000b9;
+}
+.parent-li{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;  */
+
+}
+.parent-li span{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;  
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.parent-li span:hover{
+  background-color:rgb(231, 229, 229) ;
+}
